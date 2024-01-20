@@ -1,3 +1,3 @@
 export default function TopicShowPage() {
-    return <div>Topic Show Page</div>
+  return <div>Topic Show Page</div>;
 }
