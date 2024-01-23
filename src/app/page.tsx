@@ -8,9 +8,10 @@ export default function Home() {
       <div className="col-span-3">
         <h1 className="text-3xl font-bold">Top Posts</h1>
       </div>
+      
       <div className="border shadow p-3">
         <TopicCreateForm />
-        <Divider className="my-2"/>
+        <Divider className="my-2" />
 
         <h3 className="text-lg">Topics</h3>
         <TopicList />
