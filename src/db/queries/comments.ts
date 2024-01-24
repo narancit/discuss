@@ -13,7 +13,6 @@ export type GetCommentsByPostIdProps = Comment & {
 export const getCommentsByPostId = cache((
   postId: string
 ): Promise<GetCommentsByPostIdProps[]> => {
-  console.log("I am called!")
   return db.comment.findMany({
     where: { postId },
     include: {
