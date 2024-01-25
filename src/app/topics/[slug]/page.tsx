@@ -1,4 +1,4 @@
-import PostCreateForm from "@/app/components/posts/post-create-form"
+import PostCreateForm from "@/app/components/posts/post-create-form";
 import { getPostsByTopicSlug } from "@/db/queries/posts";
 import PostList from "@/app/components/posts/post-list";
 
