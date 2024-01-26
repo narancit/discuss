@@ -1,3 +1,4 @@
+// overview of all app paths url
 const paths = {
   home() {
     return "/";
